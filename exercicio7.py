@@ -47,3 +47,21 @@
 #         print(f"O número maior é {n2}")
 #     else:
 #         print(f"O número maior é {n3}")
+
+# salario = float(input("Qual o salãrio do funcionário? "))
+# if salario <= 1250:
+#     novo = salario + (salario * 15 / 100)
+# else:
+#     novo = salario + (salario * 10/ 100)
+# print(f"Quem ganhava {salario} passo a ganhar {novo} agora ")
+
+# print('-='*20)
+# print("Analisador de triângulo")
+# print('-='*20)
+# r1 = float(input("Primeiro segmento: "))
+# r2 = float(input("Segundo segmento: "))
+# r3 = float(input("Terceiro segmento: "))
+# if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
+#     print("Os segmentos acima podem formar um triangulo!")
+# else:
+#     print("Os segmentos acima não podem formar triângulo")
